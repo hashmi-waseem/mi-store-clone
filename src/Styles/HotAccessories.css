@@ -1,0 +1,17 @@
+.hot{
+    display: flex;
+    width: 90vw;
+    margin: 1.5vmax;
+}
+.cover > img{
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+.cover img:hover{
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+}
+.hot > div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+}

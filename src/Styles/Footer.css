@@ -1,0 +1,21 @@
+.footer{
+    background-color: white;
+    height: 10vmax;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50vmax 50vmax;
+    margin: 1.5vmax;
+}
+.footer > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer > div > a{
+    margin: 5vmax;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer > div > span{
+    align-self: center;
+}
